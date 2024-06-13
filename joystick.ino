@@ -52,7 +52,7 @@ void handleButtonPressed() {
   if (buttonVal1 == LOW) {
     delay(buttonSleep);
 
-    int buttonVal2 = digitalRead(buttonPin);;
+    int buttonVal2 = digitalRead(buttonPin);
 
     if (buttonVal1 == buttonVal2) {
       zMode = !zMode;
